@@ -28,9 +28,9 @@
           <p class="text-xs font-semibold text-white sm:text-xs">Halo Keluarga Sehat</p>
         </div>
   
-        <div class="flex flex-col gap-y-2 sm:text-center md:text-center">
-          <h1 class="font-clash text-5xl font-extrabold text-white leading-tight sm:text-left sm:text-3xl md:text-5xl">Mari Bersama-sama<br>Cegah Stunting !</h1>
-          <p class="max-w-md text-sm leading-7 text-white sm:text-left sm:text-xs sm:max-w-xs sm:leading-5">Informasi Gizi Balita, Cek status gizi balita, Buku Panduan Gizi, serta Layanan untuk Konsultasi Gizi bagi Ibu Pintar Indonesia</p>
+        <div class="flex flex-col gap-y-2 sm:text-center">
+          <h1 class="font-clash text-5xl font-extrabold text-white leading-tight sm:text-left sm:text-3xl md:text-3xl">Mari Bersama-sama<br>Cegah Stunting !</h1>
+          <p class="max-w-md text-sm leading-7 text-white sm:text-left sm:text-xs sm:max-w-xs sm:leading-5 md:leading-5 md:text-xs">Informasi Gizi Balita, Cek status gizi balita, Buku Panduan Gizi, serta Layanan untuk Konsultasi Gizi bagi Ibu Pintar Indonesia</p>
         </div>
   
         <a href="#features" class=" w-fit text-sm bg-prim text-white py-2 rounded-lg font-semibold px-8 hover:bg-prim/50 transition-all ease-in-out duration-300">Mulai</a>
