@@ -7,7 +7,7 @@
           Nutrisi yang tepat adalah pondasi bagi perkembangan balita yang sehat.
           Platform ini hadir untuk menyediakan informasi tentang makanan bergizi,
           pola makan yang tepat sesuai usia, serta cara mengatasi tantangan yang
-          sering dihadapi dalam memberi makan balita. <span class="font-bold">Cek status gizi</span>  balita Anda
+          sering dihadapi dalam memberi makan balita. <span class="font-bold text-[#FFA17A]">Cek status gizi</span>  balita Anda
           secara langsung untuk memastikan mereka mendapatkan kebutuhan
           nutrisi yang optimal
         </p>
