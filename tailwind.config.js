@@ -20,6 +20,7 @@ export default {
                 sec : '#FFA17A',
                 graone : '#013635',
                 gratwo : '#039C99',
+                foot : '#C4F07B',
             },
         },
         screens: {
