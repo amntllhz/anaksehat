@@ -37,10 +37,10 @@
           <p class="text-white text-xs text-justify">Kirim pertanyaan, laporan atau saran dan kami dengan senang hati merespons dalam waktu dekat.</p>
           <form action="" class="flex flex-col gap-y-3">
             <div class="">              
-              <input type="email" id="email" class=" bg-gray-50 border border-gray-300 text-gratwo text-sm rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="name@gmail.com" required />
+              <input type="email" id="email" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="name@gmail.com" required />
             </div>
             <div class="">
-              <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-2.5 text-sm text-gratwo placeholder:text-gray-400 placeholder:text-xs focus:ring-2 focus:ring-inset focus:ring-prim sm:text-sm" placeholder="Tuliskan pesanmu disini"></textarea>
+              <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-2.5 text-xs text-gratwo placeholder:text-gray-400 placeholder:text-xs focus:ring-2 focus:ring-inset focus:ring-prim sm:text-sm" placeholder="Tuliskan pesanmu disini"></textarea>
             </div>
             <button type="submit" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-prim/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">Kirim</button>
           </form>
@@ -50,7 +50,7 @@
 
       <!-- sitemap1 -->
 
-      <div class="flex flex-col gap-y-6">
+      <div class="flex flex-col gap-y-6 mt-14 sm:mt-0">
         <h3 class="text-white font-bold text-lg">Informasi Publik</h3>
         <ul class="flex flex-col gap-y-2">
           <li>
@@ -60,17 +60,17 @@
           </li>
           <li>
             <a href="#" class="text-sm text-white hover:text-foot sm:text-sm">
-              Artikel
+              Buku Panduan
             </a>
           </li>
           <li>
             <a href="#" class="text-sm text-white hover:text-foot sm:text-sm">
-              Open Data
+              Cek Status Gizi
             </a>
           </li>
           <li>
             <a href="#" class="text-sm text-white hover:text-foot sm:text-sm">
-              Pengumuman
+              Himbauan
             </a>
           </li>
         </ul>
@@ -78,7 +78,7 @@
 
       <!-- sitemap2 -->
 
-      <div class="flex flex-col gap-y-6">
+      <div class="flex flex-col gap-y-6 mt-14 sm:mt-0">
         <h3 class="text-white font-bold text-lg">Tentang</h3>
         <ul class="flex flex-col gap-y-2">
           <li>
@@ -106,7 +106,7 @@
 
       <!-- sitemap3 -->
 
-      <div class="flex flex-col gap-y-6">
+      <div class="flex flex-col gap-y-6 mt-14 sm:mt-0">
         <h3 class="text-white font-bold text-lg">Bantuan</h3>
         <ul class="flex flex-col gap-y-2">
           <li>
