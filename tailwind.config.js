@@ -18,9 +18,11 @@ export default {
             colors : {        
                 prim : '#35C6A8',
                 sec : '#FFA17A',
+                acc : '#FFA17A',
+                acctwo : '#C4F07B',
                 graone : '#013635',
                 gratwo : '#039C99',
-                foot : '#C4F07B',
+                foot : '#C4F07B',                
             },
         },
         screens: {

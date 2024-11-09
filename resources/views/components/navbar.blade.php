@@ -39,7 +39,7 @@
         <button id="close-menu-a" class="text-prim absolute right-8 text-3xl">
           &times;
         </button>
-        <ul class="mt-10 p-4 space-y-4 rounded-lg bg-white">
+        <ul class="mt-10 p-4 space-y-4 rounded-xl bg-white">
           <li>
             <a href="#" class="block text-base font-semibold text-prim hover:bg-prim/20 p-2 rounded-md">Beranda</a>
           </li>
