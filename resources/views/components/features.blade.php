@@ -13,7 +13,7 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-3 gap-10 mt-10 sm:grid-cols-1">
+      <div class="grid grid-cols-3 gap-8 mt-10 sm:grid-cols-1">
 
         {{-- card1 --}}
         <div class="w-full bg-prim bg-opacity-20 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
