@@ -16,7 +16,7 @@
         <a href="#" class="text-sm font-semibold text-prim hover:bg-prim/20 p-2 rounded-lg">Beranda</a>
       </li>  
       <li>
-        <a href="#" class="text-sm font-semibold text-prim hover:bg-prim/20 p-2 rounded-lg">Berita</a>
+        <a href="/berita" class="text-sm font-semibold text-prim hover:bg-prim/20 p-2 rounded-lg">Berita</a>
       </li>          
       <li>
         <a href="#" class="text-sm font-semibold text-prim hover:bg-prim/20 p-2 rounded-lg">Cek Status</a>
@@ -44,7 +44,7 @@
             <a href="#" class="block text-base font-semibold text-prim hover:bg-prim/20 p-2 rounded-md">Beranda</a>
           </li>
           <li>
-            <a href="#" class="block text-base font-semibold text-prim hover:bg-prim/20 p-2 rounded-md">Layanan</a>
+            <a href="/berita" class="block text-base font-semibold text-prim hover:bg-prim/20 p-2 rounded-md">Berita</a>
           </li>
           <li>
             <a href="#" class="block text-base font-semibold text-prim hover:bg-prim/20 p-2 rounded-md">Cek Status</a>
@@ -66,7 +66,7 @@
           <a href="#" class="block text-base font-semibold text-prim hover:bg-slate-200 p-2 rounded-md">Beranda</a>
         </li>
         <li>
-          <a href="#features" class="block text-base font-semibold text-prim hover:bg-slate-200 p-2 rounded-md">Layanan</a>
+          <a href="/berita" class="block text-base font-semibold text-prim hover:bg-slate-200 p-2 rounded-md">Berita</a>
         </li>
         <li>
           <a href="../src/tracking.html" class="block text-base font-semibold text-prim hover:bg-slate-200 p-2 rounded-md">Cek Status</a>
