@@ -25,7 +25,7 @@
 
       {{-- gambar --}}
       <div class="flex flex-col w-1/2 z-10 sm:w-full">
-        <img class="w-96 mx-auto" src="{{ asset('img/hero-img.png') }}" alt="">
+        <img class="w-96 mx-auto pointer-events-none" src="{{ asset('img/hero-img.png') }}" alt="">
       </div>
       
     </div>
