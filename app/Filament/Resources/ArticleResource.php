@@ -26,20 +26,25 @@ class ArticleResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('judul')
-                ->required()
-                ->maxLength(255)
-                ->label('Judul'),
+                    ->required()
+                    ->maxLength(255)
+                    ->label('Judul'),
                 Forms\Components\Textarea::make('deskripsi')
-                ->required()
-                ->label('Deskripsi'),
+                    ->required()
+                    ->label('Deskripsi'),
+                Forms\Components\Textarea::make('konten')
+                    ->label('Konten Artikel')
+                    ->required()
+                    ->rows(5) // Menentukan tinggi area teks
+                    ->placeholder('Masukkan konten artikel di sini...'),
                 FileUpload::make('gambar')
-                ->label('Gambar')
-                ->image()
-                ->required()
-                ->maxSize(5120) // Maksimal 5MB
-                ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/jpg'])
-                ->disk('public') // Menyimpan gambar di storage/app/public
-                ->imagePreviewHeight(100), // Menampilkan preview gambar di form
+                    ->label('Gambar')
+                    ->image()
+                    ->required()
+                    ->maxSize(5120) // Maksimal 5MB
+                    ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/jpg'])
+                    ->disk('public') // Menyimpan gambar di storage/app/public
+                    ->imagePreviewHeight(100), // Menampilkan preview gambar di form
             ]);
     }
 
@@ -52,8 +57,12 @@ class ArticleResource extends Resource
                     ->searchable()
                     ->label('Judul'),
                 Tables\Columns\TextColumn::make('deskripsi')
-                    ->limit(50)
+                    ->limit(25)
                     ->label('Deskripsi'),
+                Tables\Columns\TextColumn::make('konten')
+                    ->limit(30) 
+                    ->label('Konten') 
+                    ->sortable(), 
                 Tables\Columns\ImageColumn::make('gambar')
                     ->disk('public')
                     ->label('Gambar')   
