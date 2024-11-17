@@ -13,3 +13,5 @@ Route::get('/', function () {
 // });
 
 Route::get('/berita', [ArticleController::class, 'index']);
+Route::get('/berita/{id}', [ArticleController::class, 'show']);
+

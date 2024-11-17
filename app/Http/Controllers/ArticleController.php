@@ -16,4 +16,13 @@ class ArticleController extends Controller
         // kirim data artikel ke view
         return view('berita', compact('articles'));
     }
+
+    public function show($id)
+    {   
+        // cari artikel berdasarkan id
+        $article = Article::find($id);
+
+        // kirim data artikel ke view
+        return view('detail', compact('article'));
+    }
 }
