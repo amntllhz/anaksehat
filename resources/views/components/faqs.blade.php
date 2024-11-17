@@ -2,7 +2,7 @@
     <div class="p-10 sm:p-4">
 
       <div class="space-y-2">
-        <h1 class="text-3xl font-bold text-center text-prim sm:text-2xl"><span class="text-acc">Frequently</span> Asked Questions</h1>
+        <h1 class="text-3xl font-bold text-center text-prim sm:text-2xl">Frequently <span class="text-acc">Asked</span> Questions</h1>
         <p class="text-gray-500 text-sm text-center sm:text-xs">Beberapa pertanyaan yang sering diajukan oleh pengguna mengenai platform anaksehat</p>
       </div>
   
