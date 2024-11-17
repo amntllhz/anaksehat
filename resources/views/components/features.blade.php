@@ -3,11 +3,11 @@
 
       <div class="flex flex-row max-w-6xl p-10 ring-2 ring-prim/20 ring-inset rounded-3xl items-center justify-between sm:flex-col sm:p-6 sm:space-y-4">
         <h1 class="text-3xl text-prim font-bold w-1/3 sm:w-full sm:text-xl sm:text-center">Platform <span class="text-acc">Informasi</span><br> Gizi Online</h1>
-        <p class="w-2/3 text-prim text-sm text-justify leading-relaxed sm:w-full sm:text-xs sm:leading-relaxed">
+        <p class="w-2/3 text-gray-500 text-sm text-justify leading-relaxed sm:w-full sm:text-xs sm:leading-relaxed">
           Nutrisi yang tepat adalah pondasi bagi perkembangan balita yang sehat.
           Platform ini hadir untuk menyediakan informasi tentang makanan bergizi,
           pola makan yang tepat sesuai usia, serta cara mengatasi tantangan yang
-          sering dihadapi dalam memberi makan balita. <span class="font-bold text-[#FFA17A]">Cek status gizi</span>  balita Anda
+          sering dihadapi dalam memberi makan balita. <span class="font-bold text-prim">Cek status gizi</span>  balita Anda
           secara langsung untuk memastikan mereka mendapatkan kebutuhan
           nutrisi yang optimal
         </p>
@@ -16,7 +16,7 @@
       <div class="grid grid-cols-3 gap-8 mt-10 sm:grid-cols-1">
 
         {{-- card1 --}}
-        <div class="w-full bg-prim bg-opacity-20 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
+        <div class="w-full bg-prim bg-opacity-10 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
 
           <div class="bg-prim p-2 rounded-lg flex w-14 h-14 justify-center items-center">
             <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@
         </div>
         
         {{-- card2 --}}
-        <div class="w-full bg-prim bg-opacity-20 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
+        <div class="w-full bg-prim bg-opacity-10 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
 
           <div class="bg-prim p-2 rounded-lg flex w-14 h-14 justify-center items-center">
             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,7 +61,7 @@
         </div>
 
         {{-- card3 --}}
-        <div class="w-full bg-prim bg-opacity-20 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
+        <div class="w-full bg-prim bg-opacity-10 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
 
           <div class="bg-prim p-2 rounded-lg flex w-14 h-14 justify-center items-center">
             <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
