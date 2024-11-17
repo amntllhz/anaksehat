@@ -2,7 +2,7 @@
     
     <img id="circle-fx" class="w-80 absolute left-0 z-0" src="{{ asset('img/circle-fx.png') }}" alt="">
 
-    <div class="flex flex-row max-w-6xl p-10 mx-auto items-center sm:flex-col">      
+    <div class="flex flex-row max-w-6xl p-10 mx-auto items-center sm:flex-col sm:p-8">      
 
       <div class="flex flex-col gap-y-2 w-1/2 z-10 sm:w-full">
 
