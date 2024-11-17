@@ -13,16 +13,16 @@
     <!-- menu -->       
     <ul class="flex flex-row space-x-6 sm:hidden md:hidden">
       <li>
-        <a href="#" class="text-sm font-semibold text-prim hover:bg-prim/20 p-2 rounded-lg">Beranda</a>
+        <a href="#" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Beranda</a>
       </li>  
       <li>
-        <a href="/berita" class="text-sm font-semibold text-prim hover:bg-prim/20 p-2 rounded-lg">Berita</a>
+        <a href="/berita" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Berita</a>
       </li>          
       <li>
-        <a href="#" class="text-sm font-semibold text-prim hover:bg-prim/20 p-2 rounded-lg">Cek Status</a>
+        <a href="#" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Cek Status</a>
       </li>
       <li>
-        <a href="#" class="text-sm font-semibold text-prim hover:bg-prim/20 p-2 rounded-lg">Tentang</a>
+        <a href="#" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Tentang</a>
       </li>
     </ul>
 
@@ -39,18 +39,18 @@
         <button id="close-menu-a" class="text-prim absolute right-8 text-3xl">
           &times;
         </button>
-        <ul class="mt-10 p-4 space-y-4 rounded-xl bg-white">
+        <ul class="mt-10 p-4 space-y-2 rounded-xl bg-white">
           <li>
-            <a href="#" class="block text-base font-semibold text-prim hover:bg-prim/20 p-2 rounded-md">Beranda</a>
+            <a href="#" class="block text-base font-medium text-prim hover:bg-prim/10 p-2 rounded-md">Beranda</a>
           </li>
           <li>
-            <a href="/berita" class="block text-base font-semibold text-prim hover:bg-prim/20 p-2 rounded-md">Berita</a>
+            <a href="/berita" class="block text-base font-medium text-prim hover:bg-prim/10 p-2 rounded-md">Berita</a>
           </li>
           <li>
-            <a href="#" class="block text-base font-semibold text-prim hover:bg-prim/20 p-2 rounded-md">Cek Status</a>
+            <a href="#" class="block text-base font-medium text-prim hover:bg-prim/10 p-2 rounded-md">Cek Status</a>
           </li>
           <li>
-            <a href="#" class="block text-base font-semibold text-prim hover:bg-prim/20 p-2 rounded-md">Tentang</a>
+            <a href="#" class="block text-base font-medium text-prim hover:bg-prim/10 p-2 rounded-md">Tentang</a>
           </li>
         </ul>
       </div>          
@@ -63,16 +63,16 @@
       </button>
       <ul class="mt-10 space-y-4">
         <li>
-          <a href="#" class="block text-base font-semibold text-prim hover:bg-slate-200 p-2 rounded-md">Beranda</a>
+          <a href="#" class="block text-base font-medium text-prim hover:bg-slate-200 p-2 rounded-md">Beranda</a>
         </li>
         <li>
-          <a href="/berita" class="block text-base font-semibold text-prim hover:bg-slate-200 p-2 rounded-md">Berita</a>
+          <a href="/berita" class="block text-base font-medium text-prim hover:bg-slate-200 p-2 rounded-md">Berita</a>
         </li>
         <li>
-          <a href="../src/tracking.html" class="block text-base font-semibold text-prim hover:bg-slate-200 p-2 rounded-md">Cek Status</a>
+          <a href="../src/tracking.html" class="block text-base font-medium text-prim hover:bg-slate-200 p-2 rounded-md">Cek Status</a>
         </li>
         <li>
-          <a href="#about" class="block text-base font-semibold text-prim hover:bg-slate-200 p-2 rounded-md">Tentang</a>
+          <a href="#about" class="block text-base font-medium text-prim hover:bg-slate-200 p-2 rounded-md">Tentang</a>
         </li>
       </ul>
     </div>
