@@ -12,8 +12,8 @@
 
   <x-breadcrumbdetail></x-breadcrumbdetail>
 
-    <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-7">
-        <div class="flex flex-col w-full space-y-4 mb-10">            
+    <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-4">
+        <div class="flex flex-col w-full space-y-4 mb-10 sm:px-2">            
             <img class="object-cover w-full h-96 rounded-xl sm:rounded-lg sm:h-64" src="{{ asset('storage/' . $article->gambar) }}" alt="">            
             <h3 class="text-prim font-semibold text-xs py-1 px-3 bg-prim bg-opacity-10 rounded-md w-fit">{{ $article->created_at_human }}</h3>
             <h1 class="text-3xl text-prim font-bold sm:text-xl">{{ $article->judul }}</h1>

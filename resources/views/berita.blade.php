@@ -12,8 +12,8 @@
     
     <x-breadcrumb></x-breadcrumb>
 
-    <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-7 mb-10">
-        <div class="grid grid-cols-3 gap-6 sm:grid-cols-1">
+    <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-4 mb-10">
+        <div class="grid grid-cols-3 gap-6 sm:grid-cols-1 sm:p-2">
 
             @foreach ( $articles as $article )
                 <a href="{{ url('/berita/' . $article->id) }}">

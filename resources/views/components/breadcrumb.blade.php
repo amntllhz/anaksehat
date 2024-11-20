@@ -1,4 +1,4 @@
-<section class="max-w-6xl p-10 mx-auto sm:w-full sm:p-7">
+<section class="max-w-6xl p-10 mx-auto sm:w-full sm:p-6">
     <div class="flex">        
         <nav class="flex" aria-label="Breadcrumb">
             <ol class="inline-flex bg-prim bg-opacity-10 py-2 px-5 rounded-lg items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
