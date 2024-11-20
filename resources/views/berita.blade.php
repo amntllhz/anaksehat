@@ -24,7 +24,7 @@
                         <div class="space-y-2">                            
                             <div class="flex flex-row w-full justify-between items-center">
                                 <p class="text-prim font-semibold text-xs py-1 px-3 bg-prim bg-opacity-10 rounded-md">Author</p>
-                                <p class="text-gray-400 text-xs py-1.5 px-1">{{ $article->updated_at }}</p>
+                                <p class="text-gray-400 text-xs py-1.5 px-1">{{ $article->created_at_human }}</p>
                             </div>
                             <h1 class="text-xl text-prim font-bold sm:text-xl">{{ $article->judul }}</h1>                    
                             <p class="text-gray-500 text-sm text-justify line-clamp-3 sm:text-xs">{{ $article->deskripsi }}</p>

@@ -10,8 +10,11 @@ class ArticleController extends Controller
     //
     public function index()
     {
-        // ambil semua data artikel
-        $articles = Article::all();
+        // ambil semua data artikel dan ubah created_at menjadi format week ago
+        $articles = Article::all()->map(function ($article) {
+            $article->created_at_human = $article->created_at->diffForHumans();
+            return $article;
+        });
 
         // kirim data artikel ke view
         return view('berita', compact('articles'));
@@ -21,6 +24,9 @@ class ArticleController extends Controller
     {   
         // cari artikel berdasarkan id
         $article = Article::find($id);
+
+        // ubah created_at menjadi format week ago
+        $article->created_at_human = $article->created_at->diffForHumans();
 
         // kirim data artikel ke view
         return view('detail', compact('article'));
