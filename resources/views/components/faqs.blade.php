@@ -1,5 +1,5 @@
 <section class="max-w-6xl mx-auto p-10 sm:w-full sm:p-4">
-    <div class="p-10 sm:p-4">
+    <div class="p-10 sm:p-2">
 
       <div class="space-y-2">
         <h1 class="text-3xl font-bold text-center text-prim sm:text-2xl">Frequently <span class="text-acc">Asked</span> Questions</h1>

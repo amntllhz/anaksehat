@@ -2,7 +2,7 @@
     <div class="p-10 max-w-6xl mx-auto sm:w-full sm:p-2">
 
       <div class="flex flex-row max-w-6xl p-10 ring-2 ring-prim/20 ring-inset rounded-3xl items-center justify-between sm:flex-col sm:p-6 sm:space-y-4">
-        <h1 class="text-3xl text-prim font-bold w-1/3 sm:w-full sm:text-xl sm:text-center">Platform <span class="text-acc">Informasi</span><br> Gizi Online</h1>
+        <h1 class="text-3xl text-prim font-bold w-1/3 sm:w-full sm:text-xl">Platform <span class="text-acc">Informasi</span><br> Gizi Online</h1>
         <p class="w-2/3 text-gray-500 text-sm text-justify leading-relaxed sm:w-full sm:text-xs sm:leading-relaxed">
           Nutrisi yang tepat adalah pondasi bagi perkembangan balita yang sehat.
           Platform ini hadir untuk menyediakan informasi tentang makanan bergizi,

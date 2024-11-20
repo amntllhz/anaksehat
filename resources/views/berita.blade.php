@@ -17,7 +17,7 @@
 
             @foreach ( $articles as $article )
                 <a href="{{ url('/berita/' . $article->id) }}">
-                    <div class="w-full bg-white p-5 rounded-3xl space-y-4 ring-2 ring-inset ring-prim/20 hover:shadow-xl hover:ease-in-out hover:duration-300 hover:shadow-prim/20 sm:p-4">
+                    <div class="w-full bg-white p-5 rounded-3xl space-y-4 ring-2 ring-inset ring-prim/20 hover:shadow-lg hover:ease-in-out hover:duration-300 hover:shadow-prim/20 sm:p-4">
                         @if ($article->gambar)
                             <img class="object-cover w-full h-32 rounded-xl" src="{{ asset('storage/' . $article->gambar) }}" alt="">                            
                         @endif                        

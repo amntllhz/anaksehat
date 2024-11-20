@@ -1,5 +1,5 @@
 <section class="max-w-6xl mx-auto bg-gradient-to-t from-graone to-gratwo p-10 rounded-3xl mb-10 sm:w-full sm:p-4 sm:rounded-none sm:mb-0">
-    <div class="max-w-6xl p-10 mx-auto py-10 grid grid-cols-5 gap-x-10 sm:max-w-sm sm:grid-cols-1 sm:gap-y-8 sm:p-4">
+    <div class="max-w-6xl p-10 mx-auto py-10 grid grid-cols-5 gap-x-10 sm:max-w-sm sm:grid-cols-1 sm:gap-y-8 sm:p-2">
 
       <!-- company -->
 
@@ -108,7 +108,7 @@
       </div>
       
     </div>
-    <div class="mt-2 flex items-center justify-center gap-x-6">                  
+    <div class="mt-2 flex items-center justify-center gap-x-6 sm:mt-6">                  
       <h3 class="text-sm sm:text-xs text-center text-white sm:mb-4"><span>&#169</span> 2024 anaksehat - Fakultas Teknik dan Ilmu Komputer</h3>
     </div>
 </section>
