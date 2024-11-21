@@ -14,8 +14,8 @@
 
         <div class="flex flex-col ring-2 ring-inset ring-prim/20 bg-prim bg-opacity-40 w-fit rounded-2xl gap-x-4 p-6 gap-y-2 sm:p-6">
           <h3 class="text-base text-white font-bold">Kritik & saran</h3>
-          <p class="text-white text-xs text-justify">Kirim pertanyaan, laporan atau saran dan kami dengan senang hati merespons dalam waktu dekat.</p>
-          <form action="" class="flex flex-col gap-y-3">
+          <p class="text-white text-xs text-justify sm:font-light">Kirim pertanyaan, laporan atau saran dan kami dengan senang hati merespons dalam waktu dekat.</p>
+          <form action="" class="flex flex-col gap-y-3 mt-2">
             <div class="">              
               <input type="email" id="email" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="name@gmail.com" required />
             </div>

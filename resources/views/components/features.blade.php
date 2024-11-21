@@ -26,7 +26,7 @@
 
           <div class="flex flex-col space-y-1">
             <h3 class="text-xl font-bold text-prim">Berita Gizi Balita</h3>
-            <p class="text-prim text-sm text-left"> Dapatkan Informasi terbaru mengenai gizi balita dan jangan lewatkan himbauan terbaru !</p>
+            <p class="text-prim text-sm text-left lg:line-clamp-3 md:line-clamp-3"> Dapatkan Informasi terbaru mengenai gizi balita dan jangan lewatkan himbauan terbaru !</p>
           </div>
 
           <a href="{{ url('/berita') }}" class="w-full bg-prim bg-opacity-10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
@@ -49,7 +49,7 @@
 
           <div class="flex flex-col space-y-1">
             <h3 class="text-xl font-bold text-prim">Cek Status Gizi</h3>
-            <p class="text-prim text-sm text-left">Cek status gizi balita melalui sistem otomatis dengan metode standar dan dengan hasil akurat !</p>
+            <p class="text-prim text-sm text-left lg:line-clamp-3 md:line-clamp-3">Cek status gizi balita melalui sistem otomatis dengan metode standar dan dengan hasil akurat !</p>
           </div>
 
           <button class="w-full bg-prim bg-opacity-10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
@@ -71,7 +71,7 @@
 
           <div class="flex flex-col space-y-1">
             <h3 class="text-xl font-bold text-prim">Panduan Gizi</h3>
-            <p class="text-prim text-sm text-left">Panduan gizi balita yang tepat sesuai usia yang diperlukan untuk memastikan kesehatan balita</p>
+            <p class="text-prim text-sm text-left lg:line-clamp-3 md:line-clamp-3">Panduan gizi balita yang tepat sesuai usia yang diperlukan untuk memastikan kesehatan balita</p>
           </div>
 
           <button class="w-full bg-prim bg-opacity-10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
