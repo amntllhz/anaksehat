@@ -17,10 +17,10 @@
           <p class="text-white text-xs text-justify sm:font-light">Kirim pertanyaan, laporan atau saran dan kami dengan senang hati merespons dalam waktu dekat.</p>
           <form action="" class="flex flex-col gap-y-3 mt-2">
             <div class="">              
-              <input type="email" id="email" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="name@gmail.com" required />
+              <input name="email" type="email" id="email" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="name@gmail.com" required />
             </div>
             <div class="">
-              <textarea id="about" name="about" rows="3" class="block w-full rounded-lg border-0 py-2.5 text-xs text-gratwo placeholder:text-gray-400 placeholder:text-xs focus:ring-2 focus:ring-inset focus:ring-prim sm:text-sm" placeholder="Tuliskan pesanmu disini"></textarea>
+              <textarea id="pesan" name="pesan" rows="3" class="block w-full rounded-lg border-0 py-2.5 text-xs text-gratwo placeholder:text-gray-400 placeholder:text-xs focus:ring-2 focus:ring-inset focus:ring-prim sm:text-sm" placeholder="Tuliskan pesanmu disini"></textarea>
             </div>
             <button type="submit" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-prim/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">Kirim</button>
           </form>
