@@ -35,10 +35,14 @@ class FeedbackResource extends Resource
                 Tables\Columns\TextColumn::make('email')
                     ->sortable()
                     ->searchable()
-                    ->label('Email'),
+                    ->label('Email')
+                    ->wrap(),                
                 Tables\Columns\TextColumn::make('pesan')
-                    ->limit(25)
-                    ->label('Pesan'),                
+                    ->sortable()
+                    ->searchable()                                      
+                    ->label('Pesan')
+                    ->limit(50)
+                    ->wrap(),                                        
             ])
             ->filters([
                 //
