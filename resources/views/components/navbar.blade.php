@@ -19,7 +19,7 @@
         <a href="{{ url('/berita') }}" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Berita</a>
       </li>          
       <li>
-        <a href="#" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Cek Status</a>
+        <a href="#" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Cek Gizi</a>
       </li>
       <li>
         <a href="#" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Tentang</a>

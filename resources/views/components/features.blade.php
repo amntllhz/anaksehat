@@ -52,12 +52,12 @@
             <p class="text-prim text-sm text-left lg:line-clamp-3 md:line-clamp-3">Cek status gizi balita melalui sistem otomatis dengan metode standar dan dengan hasil akurat !</p>
           </div>
 
-          <button class="w-full bg-prim bg-opacity-10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
+          <a href="{{ url('/cekgizi') }}" class="w-full bg-prim bg-opacity-10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
             <p class="text-prim text-sm">Lebih lanjut</p>
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1 11L6 6L1 1" stroke="#35C6A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>              
-          </button>
+          </a>
         </div>
 
         {{-- card3 --}}
