@@ -23,7 +23,7 @@
                     nutrisi yang optimal
                 </p>            
             </div>
-            <form method="POST" action="{{ route('feedback.store') }}" class="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-1">
+            <form method="POST" action="{{ route('cekgizi.hitung') }}" class="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-1">
                 @csrf
                 <div class="">
                     <label for="nama" class="block mb-2 text-sm font-medium text-gray-400">Nama</label>            
@@ -37,7 +37,7 @@
                     </select>
                 </div>
                 <div class="">
-                    <label for="umur" class="block mb-2 text-sm font-medium text-gray-400">Umur ( bulan )</label>            
+                    <label for="umur" class="block mb-2 text-sm font-medium text-gray-400">Umur ( Dalam bulan )</label>            
                     <input name="umur" id="umur" type="text" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Umur" required autocomplete="off" inputmode="numeric"/>
                 </div>
                 <div class="">
