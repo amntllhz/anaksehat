@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>anaksehat - Berita</title>
+    <title>anaksehat - Cek Gizi</title>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     @vite(['resources/css/app.css','resources/js/app.js','resources/js/navbar.js'])
 </head>
@@ -33,16 +33,16 @@
                     <label for="gender" class="block mb-2 text-sm font-medium text-gray-400">Jenis Kelamin</label>            
                     <select id="gender" name="gender" class="bg-gray-50 border border-gray-300 text-prim text-xs rounded-lg focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">                        
                         <option class="text-xs" value="laki-laki">Laki-laki</option>
-                        <option class="text-xs" value="perempuan">Perempuan</option>                        
+                        <option class="text-xs" value="lerempuan">Perempuan</option>                        
                     </select>
                 </div>
                 <div class="">
                     <label for="umur" class="block mb-2 text-sm font-medium text-gray-400">Umur ( Dalam bulan )</label>            
-                    <input name="umur" id="umur" type="text" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Umur" required autocomplete="off" inputmode="numeric"/>
+                    <input name="umur" id="umur" type="number" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Umur" required autocomplete="off" inputmode="numeric"/>
                 </div>
                 <div class="">
                     <label for="berat" class="block mb-2 text-sm font-medium text-gray-400">Berat Badan</label>            
-                    <input name="berat" id="berat" type="text" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Berat Badan" required autocomplete="off"/>
+                    <input name="berat" id="berat" type="text" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Berat Badan" required autocomplete="off"/>
                 </div>
                 <button type="submit" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-prim/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">Kirim</button>
             </form>

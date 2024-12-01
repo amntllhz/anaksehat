@@ -10,6 +10,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/hasilgizi', function () {
+    return view('hasilgizi');
+});
+
 Route::get('/berita', [ArticleController::class, 'index']);
 Route::get('/berita/{id}', [ArticleController::class, 'show']);
 Route::post('/feedback', [FeedbackController::class, 'store'])->name('feedback.store');
@@ -17,8 +21,3 @@ Route::post('/feedback', [FeedbackController::class, 'store'])->name('feedback.s
 Route::get('/cekgizi', [CekGiziController::class, 'index']);
 Route::post('/cekgizi', [CekGiziController::class, 'hitung'])->name('cekgizi.hitung');
 
-
-
-// Route::get('/berita', function () {
-//     return view('berita');
-// });
