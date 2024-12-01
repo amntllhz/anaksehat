@@ -1,4 +1,4 @@
-<section class="max-w-6xl mx-auto bg-gradient-to-t from-graone to-gratwo p-10 rounded-3xl mb-10 sm:w-full sm:p-4 sm:rounded-none sm:mb-0">
+<section class="max-w-6xl mt-10 mx-auto bg-gradient-to-t from-graone to-gratwo p-10 rounded-3xl mb-10 sm:w-full sm:p-4 sm:rounded-none sm:mb-0">
     <div class="max-w-6xl p-10 mx-auto py-10 grid grid-cols-5 gap-x-10 sm:max-w-sm sm:grid-cols-1 sm:gap-y-8 sm:p-2">
 
       <!-- company -->
@@ -22,7 +22,7 @@
               <input name="email" type="email" id="email" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="name@gmail.com" required />
             </div>
             <div class="">
-              <textarea id="pesan" name="pesan" rows="3" class="block w-full rounded-lg border-0 py-2.5 text-xs text-gratwo placeholder:text-gray-400 placeholder:text-xs focus:ring-2 focus:ring-inset focus:ring-prim sm:text-sm" placeholder="Tuliskan pesanmu disini"></textarea>
+              <textarea id="pesan" name="pesan" rows="3" class="block w-full rounded-lg border-0 py-2.5 text-xs text-gratwo placeholder:text-gray-400 placeholder:text-xs focus:ring-2 focus:ring-inset focus:ring-prim" placeholder="Tuliskan pesanmu disini"></textarea>
             </div>
             <button type="submit" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-prim/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">Kirim</button>
           </form>

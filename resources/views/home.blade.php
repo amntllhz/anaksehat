@@ -54,7 +54,7 @@
                 </div>
                 <!-- Modal footer -->
                 <div class="flex items-center p-4 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <button data-modal-hide="default-modal" type="button" class="text-white bg-prim hover:bg-gratwo font-medium rounded-lg text-sm px-8 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">OK</button>
+                    <button data-modal-hide="default-modal" type="button" class="text-white w-full bg-prim hover:bg-gratwo font-medium rounded-lg text-sm px-8 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Beranda</button>
                 </div>
             </div>
         </div>
