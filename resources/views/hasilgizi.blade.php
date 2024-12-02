@@ -13,41 +13,47 @@
     <x-breadcrumbdetail></x-breadcrumbdetail>
 
     <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-4 mb-24">
-        <div class="flex flex-col p-10 w-full space-y-4 mb-10 sm:px-2 bg-white rounded-3xl ring-2 ring-inset ring-prim/20">
-            <h1 class="text-2xl text-prim font-bold">Hasil Cek Gizi Balita</h1>
-            <p class="text-gray-600 text-sm">Berikut adalah hasil perhitungan status gizi balita Anda.</p>
-
-            <!-- Tampilkan Hasil -->
-            <div class="mt-6 ">
-                <table class="w-full border-collapse text-sm text-gray-700 sm:overflow-x-auto">
-                    <thead>
-                        <tr class="bg-gray-100">
-                            <th class="border p-2 text-left">Nama</th>
-                            <th class="border p-2 text-left">Jenis Kelamin</th>
-                            <th class="border p-2 text-left">Umur (Bulan)</th>
-                            <th class="border p-2 text-left">Berat Badan (kg)</th>
-                            <th class="border p-2 text-left">Z-Score</th>
-                            <th class="border p-2 text-left">Status Gizi</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="border p-2">{{ $nama }}</td>
-                            <td class="border p-2">{{ $gender }}</td>
-                            <td class="border p-2">{{ $umur }}</td>
-                            <td class="border p-2">{{ $berat }}</td>
-                            <td class="border p-2">{{ number_format($zscore, 2) }}</td>
-                            <td class="border p-2">{{ $status }}</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="flex flex-col p-10 w-full mb-10 sm:px-2 bg-white rounded-3xl ring-2 ring-inset ring-prim/20">
+            <div class="space-y-4">
+                <h1 class="text-2xl text-prim font-bold">Hasil Cek Gizi Balita</h1>
+                <p class="text-gray-600 text-sm">Berikut adalah hasil perhitungan status gizi balita Anda.</p>
+    
+                <!-- Tampilkan Hasil -->
+                <div class="mt-6 ">
+                    <table class="w-full border-collapse text-sm text-gray-700 sm:overflow-x-auto">
+                        <thead>
+                            <tr class="bg-gray-100">
+                                <th class="border p-2 text-left">Nama</th>
+                                <th class="border p-2 text-left">Jenis Kelamin</th>
+                                <th class="border p-2 text-left">Umur (Bulan)</th>
+                                <th class="border p-2 text-left">Berat Badan (kg)</th>
+                                <th class="border p-2 text-left">Z-Score</th>
+                                <th class="border p-2 text-left">Status Gizi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border p-2">{{ $nama }}</td>
+                                <td class="border p-2">{{ $gender }}</td>
+                                <td class="border p-2">{{ $umur }}</td>
+                                <td class="border p-2">{{ $berat }}</td>
+                                <td class="border p-2">{{ number_format($zscore, 2) }}</td>
+                                <td class="border p-2">{{ $status }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
             <!-- Tombol Kembali -->
             <div class="mt-6">
-                <a href="{{ url('/cekgizi') }}" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-prim/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">Kembali ke form cek gizi</a>
+                <a href="{{ url('/cekgizi') }}" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gratwo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">Kembali</a>
             </div>
+
         </div>
+
+        
+
     </section>
 
     <x-footer></x-footer>

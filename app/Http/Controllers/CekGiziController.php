@@ -61,9 +61,19 @@ class CekGiziController extends Controller
 
     public function getStatus($zscore)
     {
-        if ($zscore < -3) return 'Gizi Buruk';
-        if ($zscore < -2) return 'Gizi Kurang';
-        if ($zscore <= 2) return 'Gizi Baik';
-        return 'Gizi Lebih';
+        // if ($zscore < -3) return 'Berat Badan Sangat Kurang';
+        // if ($zscore < -2) return 'Berat Badan Kurang';
+        // if ($zscore <= 2) return 'Gizi Baik';
+        // return 'Gizi Lebih';
+
+        if ($zscore < -3) {
+            return 'Berat Badan Sangat Kurang';
+        } elseif ($zscore >= -3 && $zscore < -2) {
+            return 'Berat Badan Kurang';
+        } elseif ($zscore >= -2 && $zscore <= 1) {
+            return 'Berat Badan Normal';
+        } else {
+            return 'Risiko Berat Badan Lebih';
+        }
     }
 }
