@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\BbuLakilaki;
+use App\Models\PbuLakilaki;
 use App\Models\BbuPerempuan;
+use App\Models\PbuPerempuan;
+use Illuminate\Http\Request;
 
 class CekGiziController extends Controller
 {
@@ -17,63 +19,106 @@ class CekGiziController extends Controller
 
     public function hitung(Request $request)
     {
-        // validasi input
+        // Validasi input
         $request->validate([
             'nama' => 'required',
             'gender' => 'required',
             'umur' => 'required|numeric',
             'berat' => 'required',
+            'panjang' => 'required',
         ]);
 
+        // Ambil data input dari form
         $nama = $request->nama;
+        $gender = $request->gender;
         $umur = $request->umur;
         $berat = $request->berat;
-        $gender = $request->gender;
+        $panjang = $request->panjang;
 
-        // ambil data dari table sesuai gender
-        $data = $gender === 'laki-laki' 
+        /** Perhitungan BB/U **/
+        // Ambil data antropometri BB/U berdasarkan gender dan umur
+        $dataBbu = $gender === 'laki-laki'
             ? BbuLakilaki::where('id_umur', $umur)->first()
             : BbuPerempuan::where('id_umur', $umur)->first();
 
-        // Jika data tidak ditemukan
-        if (!$data) {
+        if (!$dataBbu) {
             return redirect()->back()->withErrors([
-                'error' => 'Data tidak ditemukan untuk umur yang diberikan.',
+                'error' => 'Data BB/U tidak ditemukan untuk umur yang diberikan.',
             ]);
         }
 
-        // hitung berat badan dengan z-score
-        $median = $data->median;
-        $sd1 = $data->sd1;
-        $sdmin1 = $data->sdmin1;
+        // Hitung Z-Score BB/U
+        $zscoreBbu = $this->calculateZscore(
+            $berat,
+            $dataBbu->median,
+            $dataBbu->sd1,
+            $dataBbu->sdmin1
+        );
 
-        $zscore = $berat < $median
-            ? ($berat - $median) / ($median - $sdmin1)
-            : ($berat - $median) / ($sd1 - $median);
+        // Tentukan status gizi BB/U
+        $statusBbu = $this->getStatusBbu($zscoreBbu);
 
-        // Tentukan status gizi
-        $status = $this->getStatus($zscore);
+        /** Perhitungan PB/U **/
+        // Ambil data antropometri PB/U berdasarkan gender dan umur
+        $dataPbu = $gender === 'laki-laki'
+            ? PbuLakilaki::where('id_umur', $umur)->first()
+            : PbuPerempuan::where('id_umur', $umur)->first();
 
-        // tampilkan hasil
-        return view('hasilgizi', compact('nama','gender', 'umur', 'berat', 'zscore', 'status'));
+        if (!$dataPbu) {
+            return redirect()->back()->withErrors([
+                'error' => 'Data PB/U tidak ditemukan untuk umur yang diberikan.',
+            ]);
+        }
 
+        // Hitung Z-Score PB/U
+        $zscorePbu = $this->calculateZscore(
+            $panjang,
+            $dataPbu->median,
+            $dataPbu->sd1,
+            $dataPbu->sdmin1
+        );
+
+        // Tentukan status gizi PB/U
+        $statusPbu = $this->getStatusPbu($zscorePbu);
+
+        // Tampilkan hasil di view
+        return view('hasilgizi', compact('nama', 'gender', 'umur', 'berat', 'panjang', 'zscoreBbu', 'statusBbu', 'zscorePbu', 'statusPbu'));
     }
 
-    public function getStatus($zscore)
+    // Metode untuk menghitung z-score
+    private function calculateZscore($value, $median, $sd1, $sdmin1)
     {
-        // if ($zscore < -3) return 'Berat Badan Sangat Kurang';
-        // if ($zscore < -2) return 'Berat Badan Kurang';
-        // if ($zscore <= 2) return 'Gizi Baik';
-        // return 'Gizi Lebih';
+        // Jika nilai lebih kecil dari median
+        if ($value < $median) {
+            return ($value - $median) / ($median - $sdmin1);
+        }
+        // Jika nilai lebih besar dari median
+        return ($value - $median) / ($sd1 - $median);
+    }
 
+    // Metode untuk menentukan status gizi BB/U
+    private function getStatusBbu($zscore)
+    {
         if ($zscore < -3) {
             return 'Berat Badan Sangat Kurang';
         } elseif ($zscore >= -3 && $zscore < -2) {
             return 'Berat Badan Kurang';
         } elseif ($zscore >= -2 && $zscore <= 1) {
             return 'Berat Badan Normal';
-        } else {
-            return 'Risiko Berat Badan Lebih';
         }
+        return 'Risiko Berat Badan Lebih';
+    }
+
+    // Metode untuk menentukan status gizi PB/U
+    private function getStatusPbu($zscore)
+    {
+        if ($zscore < -3) {
+            return 'Sangat Pendek';
+        } elseif ($zscore >= -3 && $zscore < -2) {
+            return 'Pendek';
+        } elseif ($zscore >= -2 && $zscore <= 1) {
+            return 'Normal';
+        }
+        return 'Tinggi';
     }
 }
