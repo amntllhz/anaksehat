@@ -23,27 +23,32 @@
                     nutrisi yang optimal
                 </p>            
             </div>
-            <form method="POST" action="{{ route('cekgizi.hitung') }}" class="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-1">
+            <form method="POST" action="{{ route('cekgizi.hitung') }}" class="mt-10 grid grid-cols-6 gap-6 sm:grid-cols-1">
                 @csrf
-                <div class="">
+                <div class="col-span-3">
                     <label for="nama" class="block mb-2 text-sm font-medium text-gray-400">Nama</label>            
                     <input name="nama" id="nama" type="text" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan nama" required autocomplete="off"/>
                 </div>
-                <div class="">
+                <div class="col-span-3">
                     <label for="gender" class="block mb-2 text-sm font-medium text-gray-400">Jenis Kelamin</label>            
                     <select id="gender" name="gender" class="bg-gray-50 border border-gray-300 text-prim text-xs rounded-lg focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">                        
                         <option class="text-xs" value="laki-laki">Laki-laki</option>
                         <option class="text-xs" value="perempuan">Perempuan</option>                        
                     </select>
                 </div>
-                <div class="">
+                <div class="col-span-2">
                     <label for="umur" class="block mb-2 text-sm font-medium text-gray-400">Umur ( Dalam bulan )</label>            
                     <input name="umur" id="umur" type="number" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Umur" required autocomplete="off" inputmode="numeric"/>
                 </div>
-                <div class="">
+                <div class="col-span-2">
                     <label for="berat" class="block mb-2 text-sm font-medium text-gray-400">Berat Badan</label>            
                     <input name="berat" id="berat" type="text" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Berat Badan" required autocomplete="off"/>
                 </div>
+                <div class="col-span-2">
+                    <label for="panjang" class="block mb-2 text-sm font-medium text-gray-400">Panjang Badan</label>            
+                    <input name="panjang" id="panjang" type="text" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Berat Badan" required autocomplete="off"/>
+                </div>
+
                 <button type="submit" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gratwo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">Cek Status Gizi</button>
             </form>
         </div>
