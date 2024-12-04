@@ -16,7 +16,7 @@
         <div class="flex flex-col p-10 w-full mb-10 sm:px-2 bg-white rounded-3xl ring-2 ring-inset ring-prim/20">
             <div class="space-y-2">
                 <h1 class="text-2xl text-prim font-bold bg-prim bg-opacity-10 rounded-md text-center py-2 px-4">Hasil Cek Gizi Balita</h1>
-                <div class="flex justify-between p-2 w-1/4 sm:w-full">
+                <div class="flex justify-between p-2 w-1/3 sm:w-full">
                     <div class="flex flex-col space-y-1 text-left">
                         <p class="text-gray-700 font-semibold text-sm">Nama</p>
                         <p class="text-gray-700 font-semibold text-sm">Jenis Kelamin</p>
@@ -24,22 +24,22 @@
                         <p class="text-gray-700 font-semibold text-sm">Panjang Badan</p>
                     </div>                      
                     <div class="flex flex-col space-y-1 text-left">
-                        <p class="text-gray-700 text-sm">{{ $nama }}</p>
-                        <p class="text-gray-700 text-sm">{{ $gender }}</p>
-                        <p class="text-gray-700 text-sm">{{ $berat }} kg</p>
-                        <p class="text-gray-700 text-sm">{{ $panjang }} cm</p>
+                        <p class="text-gray-500 text-sm">{{ $nama }}</p>
+                        <p class="text-gray-500 text-sm">{{ $gender }}</p>
+                        <p class="text-gray-500 text-sm">{{ $berat }} kg</p>
+                        <p class="text-gray-500 text-sm">{{ $panjang }} cm</p>
                     </div>          
                 </div>
             </div>
 
             <!-- Tabel Hasil BB/U -->
 
-            <table class="w-full table-fixed mt-4 border-collapse text-sm text-gray-700 sm:overflow-x-auto">
+            <table class="w-full table-fixed mt-4 border-collapse text-sm text-gray-500 sm:overflow-x-auto">
                 <thead>
                     <tr class="bg-gray-100">
-                        <th class="border p-2 text-left">Metode Perhitungan</th>                        
-                        <th class="border p-2 text-center">Z-Score BB/U</th>
-                        <th class="border p-2 text-center">Status Gizi BB/U</th>
+                        <th class="border text-gray-700 p-2 text-left">Metode Perhitungan</th>                        
+                        <th class="border text-gray-700 p-2 text-center">Z-Score BB/U</th>
+                        <th class="border text-gray-700 p-2 text-center">Status Gizi</th>
                     </tr>
                 </thead>
                 <tbody>

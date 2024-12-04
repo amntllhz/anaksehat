@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-span-2 sm:col-span-3">
                     <label for="umur" class="block mb-2 text-sm font-medium text-gray-400">Umur ( Dalam bulan )</label>            
-                    <input name="umur" id="umur" type="number" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Umur" required autocomplete="off" inputmode="numeric"/>
+                    <input name="umur" id="umur" type="number" min="0" max="60" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Umur" required autocomplete="off" inputmode="numeric"/>
                 </div>
                 <div class="col-span-2 sm:col-span-3">
                     <label for="berat" class="block mb-2 text-sm font-medium text-gray-400">Berat Badan</label>            
