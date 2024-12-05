@@ -64,8 +64,7 @@
                 Kembali
             </a>
         </div>
-    </section>
-    
+    </section>    
 
     <x-footer></x-footer>
 
