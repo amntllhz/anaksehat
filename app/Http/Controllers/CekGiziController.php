@@ -57,6 +57,7 @@ class CekGiziController extends Controller
 
         // Tentukan status gizi BB/U
         $statusBbu = $this->getStatusBbu($zscoreBbu);
+        
 
         /** Perhitungan PB/U **/
         // Ambil data antropometri PB/U berdasarkan gender dan umur
@@ -81,8 +82,11 @@ class CekGiziController extends Controller
         // Tentukan status gizi PB/U
         $statusPbu = $this->getStatusPbu($zscorePbu);
 
+        // Tentukan catatan
+        $catatan = $this->getCatatan($statusBbu, $statusPbu);
+
         // Tampilkan hasil di view
-        return view('hasilgizi', compact('nama', 'gender', 'umur', 'berat', 'panjang', 'zscoreBbu', 'statusBbu', 'zscorePbu', 'statusPbu'));
+        return view('hasilgizi', compact('nama', 'gender', 'umur', 'berat', 'panjang', 'zscoreBbu', 'statusBbu', 'zscorePbu', 'statusPbu','catatan'));
     }
 
     // Metode untuk menghitung z-score
@@ -94,7 +98,48 @@ class CekGiziController extends Controller
         }
         // Jika nilai lebih besar dari median
         return ($value - $median) / ($sd1 - $median);
+    }    
+
+    // Tambahkan metode di bawah metode lain
+    private function getCatatan($statusBbu, $statusPbu)
+    {
+        $catatan = [];
+
+        // Saran berdasarkan BB/U
+        switch ($statusBbu) {
+            case 'Berat Badan Sangat Kurang':
+                $catatan['bb'] = 'Kondisi ini memerlukan perhatian segera. Silakan konsultasikan ke fasilitas kesehatan terdekat untuk evaluasi lebih lanjut.';
+                break;
+            case 'Berat Badan Kurang':
+                $catatan['bb'] = 'Perhatikan asupan makanan balita Anda. Pastikan mereka mendapatkan nutrisi yang cukup setiap harinya.';
+                break;
+            case 'Berat Badan Normal':
+                $catatan['bb'] = 'Kondisi baik! Pastikan pola makan tetap terjaga dengan gizi seimbang.';
+                break;
+            case 'Risiko Berat Badan Lebih':
+                $catatan['bb'] = 'Perhatikan pola makan balita. Hindari makanan tinggi gula dan lemak.';
+                break;
+        }
+
+        // Saran berdasarkan PB/U
+        switch ($statusPbu) {
+            case 'Sangat Pendek':
+                $catatan['pb'] = 'Kondisi ini menunjukkan stunting. Segera periksa ke fasilitas kesehatan untuk intervensi dini.';
+                break;
+            case 'Pendek':
+                $catatan['pb'] = 'Pastikan balita mendapatkan pola makan bergizi dan stimulasi tumbuh kembang yang optimal.';
+                break;
+            case 'Normal':
+                $catatan['pb'] = 'Kondisi baik! Pertahankan pola makan dan perawatan balita.';
+                break;
+            case 'Tinggi':
+                $catatan['pb'] = 'Perhatikan pola makan balita agar panjang badan tetap sesuai dengan usia.';
+                break;
+        }
+
+        return $catatan;
     }
+
 
     // Metode untuk menentukan status gizi BB/U
     private function getStatusBbu($zscore)
@@ -108,6 +153,7 @@ class CekGiziController extends Controller
         }
         return 'Risiko Berat Badan Lebih';
     }
+
 
     // Metode untuk menentukan status gizi PB/U
     private function getStatusPbu($zscore)

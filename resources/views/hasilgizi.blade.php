@@ -55,6 +55,12 @@
                     </tr>
                 </tbody>
             </table>
+
+            <div class="mt-4 space-y-1 p-2">
+                <p class="text-gray-700 font-semibold text-sm">Catatan :</p>
+                <p class="text-gray-500 text-sm"><span class="text-prim font-bold">BB/U</span> {{ $catatan['bb'] }}</p>
+                <p class="text-gray-500 text-sm"><span class="text-prim font-bold">PB/U</span> {{ $catatan['pb'] }}</p>
+            </div>
             
         </div>
 
