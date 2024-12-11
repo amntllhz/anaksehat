@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>anaksehat - Cek Gizi</title>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    @vite(['resources/css/app.css','resources/js/app.js','resources/js/navbar.js'])
+    @vite(['resources/css/app.css','resources/js/app.js','resources/js/navbar.js','resources/js/formval.js'])
 </head>
 <body class="font-in font-feature-settings-cv11">
 
@@ -42,11 +42,11 @@
                 </div>
                 <div class="col-span-2 sm:col-span-3">
                     <label for="berat" class="block mb-2 text-sm font-medium text-gray-400">Berat Badan</label>            
-                    <input name="berat" id="berat" type="text" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Berat Badan" required autocomplete="off"/>
+                    <input name="berat" id="berat" type="text" step="0.1" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Berat Badan" required autocomplete="off" />
                 </div>
                 <div class="col-span-2 sm:col-span-3">
                     <label for="panjang" class="block mb-2 text-sm font-medium text-gray-400">Panjang Badan</label>            
-                    <input name="panjang" id="panjang" type="text" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Berat Badan" required autocomplete="off"/>
+                    <input name="panjang" id="panjang" type="text" step="0.1" min="0" class=" bg-gray-50 border border-gray-300 text-gratwo text-xs rounded-lg placeholder:text-gray-400 placeholder:text-xs focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-prim dark:focus:border-prim" placeholder="Tuliskan Berat Badan" required autocomplete="off" />
                 </div>
 
                 <button type="submit" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gratwo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">Cek Status Gizi</button>
