@@ -38,7 +38,7 @@
                 <thead>
                     <tr class="bg-gray-100">
                         <th class="border text-gray-700 p-2 text-left">Metode Perhitungan</th>                        
-                        <th class="border text-gray-700 p-2 text-center">Z-Score BB/U</th>
+                        <th class="border text-gray-700 p-2 text-center">Z-Score</th>
                         <th class="border text-gray-700 p-2 text-center">Status Gizi</th>
                     </tr>
                 </thead>
