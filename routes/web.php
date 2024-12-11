@@ -8,16 +8,16 @@ use League\Uri\FeatureDetection;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('beranda');
 
 Route::get('/hasilgizi', function () {
     return view('hasilgizi');
 });
 
-Route::get('/berita', [ArticleController::class, 'index']);
-Route::get('/berita/{id}', [ArticleController::class, 'show']);
+Route::get('/berita', [ArticleController::class, 'index'])->name('berita');
+Route::get('/berita/{id}', [ArticleController::class, 'show'])->name('detailberita');
 Route::post('/feedback', [FeedbackController::class, 'store'])->name('feedback.store');
 
-Route::get('/cekgizi', [CekGiziController::class, 'index']);
+Route::get('/cekgizi', [CekGiziController::class, 'index'])->name('cekgizi');
 Route::post('/cekgizi', [CekGiziController::class, 'hitung'])->name('cekgizi.hitung');
 

@@ -10,7 +10,11 @@
 </head>    
 <body class="font-in font-feature-settings-cv11">  
 
-    <x-breadcrumbdetail></x-breadcrumbdetail>
+    <section class="max-w-6xl p-10 mx-auto sm:w-full sm:p-6">
+        <div class="flex font-semibold text-prim">                    
+            {{ Breadcrumbs::render('detailberita', $article) }}    
+        </div>
+    </section>
 
     <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-4 mb-24">
         <div class="flex flex-col w-full space-y-4 mb-10 sm:px-2">            

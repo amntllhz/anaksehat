@@ -9,8 +9,13 @@
     @vite(['resources/css/app.css','resources/js/app.js','resources/js/navbar.js'])
 </head>
 <body class="font-in font-feature-settings-cv11">    
+
     
-    <x-breadcrumb></x-breadcrumb>
+    <section class="max-w-6xl p-10 mx-auto sm:w-full sm:p-6">
+        <div class="flex font-semibold text-prim">                    
+            {{ Breadcrumbs::render('berita') }}    
+        </div>
+    </section>
 
     <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-4 mb-24">
         <div class="grid grid-cols-3 gap-6 sm:grid-cols-1 sm:p-2">

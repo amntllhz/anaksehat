@@ -10,7 +10,11 @@
 </head>    
 <body class="font-in font-feature-settings-cv11">  
 
-    <x-breadcrumbcekgizi></x-breadcrumbcekgizi>
+    <section class="max-w-6xl p-10 mx-auto sm:w-full sm:p-6">
+        <div class="flex font-semibold text-prim">                    
+            {{ Breadcrumbs::render('hasilgizi') }}    
+        </div>
+    </section>
 
     <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-6 mb-24">
         <div class="flex flex-col p-10 w-full mb-10 sm:px-2 bg-white rounded-3xl ring-2 ring-inset ring-prim/20">
