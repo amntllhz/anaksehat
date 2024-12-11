@@ -22,7 +22,7 @@ Breadcrumbs::for('berita', function (BreadcrumbTrail $trail) {
 // Beranda > Berita > Detail
 Breadcrumbs::for('detailberita', function (BreadcrumbTrail $trail, $article) {
     $trail->parent('berita'); // Berita
-    $trail->push('Detail', route('detailberita', ['id' => $article->id])); // Detail Berita
+    $trail->push('Detail', route('detailberita.show', ['id' => $article->id])); // Detail Berita
 });
 
 // Beranda > Cek Gizi
