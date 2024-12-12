@@ -70,7 +70,7 @@
 
         <!-- Tombol Kembali -->
         <div class="mt-6">
-            <a href="{{ url('/cekgizi') }}" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gratwo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">
+            <a href="{{ url('/cekgizi') }}" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gratwo transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">
                 Kembali
             </a>
         </div>
