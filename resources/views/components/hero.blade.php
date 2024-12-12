@@ -19,7 +19,7 @@
           <p class="max-w-md text-sm leading-7 text-white sm:text-left sm:text-xs sm:max-w-xs sm:leading-5 md:leading-5 md:text-xs">Informasi Gizi Balita, Cek status gizi balita, Buku Panduan Gizi, serta Layanan untuk Konsultasi Gizi bagi Ibu Pintar Indonesia</p>
         </div>
   
-        <a href="#features" class=" w-fit text-sm bg-prim text-white py-2 rounded-lg font-semibold px-8 hover:bg-prim/50 transition-all ease-in-out duration-300">Mulai</a>
+        <a href="#features" class=" w-fit text-sm bg-prim text-white py-2 rounded-lg font-semibold px-8 hover:bg-gratwo transition-all ease-in-out duration-300">Mulai</a>
 
       </div>
 
