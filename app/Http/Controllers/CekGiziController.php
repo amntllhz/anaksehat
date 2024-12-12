@@ -61,7 +61,7 @@ class CekGiziController extends Controller
 
         /** Perhitungan PB/U **/
         // Ambil data antropometri PB/U berdasarkan gender dan umur
-        $dataPbu = $gender === 'laki-laki'
+        $dataPbu = $gender === 'Laki-laki'
             ? PbuLakilaki::where('id_umur', $umur)->first()
             : PbuPerempuan::where('id_umur', $umur)->first();
 
