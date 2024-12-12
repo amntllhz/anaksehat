@@ -14,9 +14,21 @@ function validateNumericInput(input) {
     }
 }
 
+
+function validateNameInput(input) {
+    // Menghapus semua karakter kecuali huruf dan spasi
+    input.value = input.value.replace(/[^a-zA-Z\s]/g, '');
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
+    const namaInput = document.getElementById('nama');
     const beratInput = document.getElementById('berat');
     const panjangInput = document.getElementById('panjang');
+
+    if (namaInput) {
+        namaInput.addEventListener('input', () => validateNameInput(namaInput));
+    }
 
     if (beratInput) {
         beratInput.addEventListener('input', () => validateNumericInput(beratInput));
