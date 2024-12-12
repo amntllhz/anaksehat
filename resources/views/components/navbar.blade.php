@@ -22,7 +22,7 @@
         <a href="{{ url('/cekgizi') }}" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Cek Gizi</a>
       </li>
       <li>
-        <a href="#" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Tentang</a>
+        <a href="#tentang" class="text-sm font-medium text-prim hover:bg-prim/10 p-2 rounded-lg">Tentang</a>
       </li>
     </ul>
 
@@ -50,7 +50,7 @@
             <a href="{{ url('/cekgizi') }}" class="block text-base font-medium text-prim hover:bg-prim/10 p-2 rounded-md">Cek Gizi</a>
           </li>
           <li>
-            <a href="#" class="block text-base font-medium text-prim hover:bg-prim/10 p-2 rounded-md">Tentang</a>
+            <a href="#tentang" class="block text-base font-medium text-prim hover:bg-prim/10 p-2 rounded-md">Tentang</a>
           </li>
         </ul>
       </div>          

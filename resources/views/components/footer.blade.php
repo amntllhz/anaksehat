@@ -1,4 +1,4 @@
-<section class="max-w-6xl mt-10 mx-auto bg-gradient-to-t from-graone to-gratwo p-10 rounded-3xl mb-10 sm:w-full sm:p-4 sm:rounded-none sm:mb-0">
+<section id="tentang" class="max-w-6xl mt-10 mx-auto bg-gradient-to-t from-graone to-gratwo p-10 rounded-3xl mb-8 sm:w-full sm:p-4 sm:rounded-none sm:mb-0">
     <div class="max-w-6xl p-10 mx-auto py-10 grid grid-cols-5 gap-x-10 sm:max-w-sm sm:grid-cols-1 sm:gap-y-8 sm:p-2">
 
       <!-- company -->
