@@ -17,7 +17,7 @@
     </section>
 
     <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-6 mb-24">
-        <div class="flex flex-col p-10 w-full mb-10 sm:px-2 bg-white rounded-3xl ring-2 ring-inset ring-prim/20">
+        <div class="flex flex-col p-10 w-full mb-10 sm:px-4 bg-white rounded-3xl ring-2 ring-inset ring-prim/20">
             <div class="space-y-2">
                 <h1 class="text-2xl text-prim font-bold bg-prim bg-opacity-10 rounded-md text-center py-2 px-4">Hasil Cek Gizi Balita</h1>
                 <div class="flex justify-between p-2 w-1/3 sm:w-full">
