@@ -17,6 +17,15 @@
         </div>
     </section>
 
+    <div class="max-w-6xl mx-auto px-10 py-4 w-full mb-2 sm:px-6 sm:mb-0">
+        <form method="GET" action="{{ url('/berita') }}" class="flex items-center space-x-2">            
+            <select name="order" id="order" class="w-fit bg-gray-50 border border-gray-300 text-prim text-xs rounded-lg focus:ring-prim focus:border-prim block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onchange="this.form.submit()">
+                <option class="text-sm sm:text-xs" value="desc" {{ request('order') === 'desc' ? 'selected' : '' }}>Terbaru</option>
+                <option class="text-sm sm:text-xs" value="asc" {{ request('order') === 'asc' ? 'selected' : '' }}>Terlama</option>
+            </select>            
+        </form>
+    </div>
+
     <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-4 mb-24">
         <div class="grid grid-cols-3 gap-6 sm:grid-cols-1 sm:p-2">
 

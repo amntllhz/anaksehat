@@ -8,13 +8,17 @@ use Illuminate\Http\Request;
 class ArticleController extends Controller
 {
     //
-    public function index()
+    public function index(Request $request)
     {
-        // ambil semua data artikel dan ubah created_at menjadi format week ago
-        $articles = Article::all()->map(function ($article) {
+        // Ambil parameter sorting dari request (default: desc)
+        $order = $request->get('order', 'desc');
+
+        // Ambil data artikel sesuai urutan
+        $articles = Article::orderBy('created_at', $order)->get()->map(function ($article) {
             $article->created_at_human = $article->created_at->diffForHumans();
             return $article;
         });
+
 
         // kirim data artikel ke view
         return view('berita', compact('articles'));
