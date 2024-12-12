@@ -36,8 +36,8 @@
                 <div class="col-span-3">
                     <label for="gender" class="block mb-2 text-sm font-medium text-gray-400">Jenis Kelamin</label>            
                     <select id="gender" name="gender" class="bg-gray-50 border border-gray-300 text-prim text-xs rounded-lg focus:ring-prim focus:border-prim block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">                        
-                        <option class="text-xs" value="laki-laki">Laki-laki</option>
-                        <option class="text-xs" value="perempuan">Perempuan</option>                        
+                        <option class="text-xs" value="Laki-laki">Laki-laki</option>
+                        <option class="text-xs" value="Perempuan">Perempuan</option>                        
                     </select>
                 </div>
                 <div class="col-span-2 sm:col-span-3">
