@@ -1,4 +1,4 @@
-<section class="mt-10 p-10 sm:p-4">
+<section id="features" class="mt-10 p-10 sm:p-4">
     <div class="p-10 max-w-6xl mx-auto sm:w-full sm:p-2">
 
       <div class="flex flex-row max-w-6xl p-10 ring-2 ring-prim/20 ring-inset rounded-3xl items-center justify-between sm:flex-col sm:p-6 sm:space-y-4">
