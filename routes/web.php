@@ -14,6 +14,10 @@ Route::get('/hasilgizi', function () {
     return view('hasilgizi');
 });
 
+Route::get('/profil', function () {
+    return view('profil');
+})->name('profil');
+
 Route::get('/berita', [ArticleController::class, 'index'])->name('berita');
 Route::get('/berita/{id}', [ArticleController::class, 'show'])->name('detailberita.show');
 Route::post('/feedback', [FeedbackController::class, 'store'])->name('feedback.store');

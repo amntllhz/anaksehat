@@ -13,6 +13,12 @@ Breadcrumbs::for('beranda', function (BreadcrumbTrail $trail) {
     $trail->push('Beranda', route('beranda'));
 });
 
+// Beranda > Profil
+Breadcrumbs::for('profil', function (BreadcrumbTrail $trail) {
+    $trail->parent('beranda');
+    $trail->push('Profil', route('profil'));
+});
+
 // Beranda > Berita
 Breadcrumbs::for('berita', function (BreadcrumbTrail $trail) {
     $trail->parent('beranda');

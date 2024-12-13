@@ -64,7 +64,7 @@
         <h3 class="text-white font-bold text-lg">Tentang</h3>
         <ul class="flex flex-col gap-y-2">
           <li>
-            <a href="#" class="text-sm text-white hover:text-foot sm:text-sm">
+            <a href="{{ url('/profil') }}" class="text-sm text-white hover:text-foot sm:text-sm">
               Profil
             </a>
           </li>
