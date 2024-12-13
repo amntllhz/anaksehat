@@ -111,6 +111,6 @@
       
     </div>
     <div class="mt-2 flex items-center justify-center gap-x-6 sm:mt-6">                  
-      <h3 class="text-sm sm:text-xs text-center text-white sm:mb-4"><span>&#169</span> 2024 anaksehat - Fakultas Teknik dan Ilmu Komputer</h3>
+      <h3 class="text-sm sm:text-xs text-center text-white sm:mb-4"><span>&#169</span> 2024 anaksehat - anaksehat Development</h3>
     </div>
 </section>

@@ -37,6 +37,9 @@
                 <p class="w-full text-gray-500 text-sm text-justify leading-relaxed sm:w-full sm:text-xs sm:leading-relaxed">
                     Kami memahami bahwa <span class="font-bold text-prim">memantau gizi balita secara berkala</span> adalah langkah penting dalam mendukung tumbuh kembangnya. Oleh karena itu, Anaksehat menyediakan fitur <span class="font-bold text-prim">Cek Gizi Otomatis</span> yang memungkinkan Anda mengetahui kondisi gizi si kecil secara akurat. Dengan memasukkan data seperti berat badan, panjang badan, dan usia anak, sistem kami akan menganalisis status gizi berdasarkan standar antropometri yang diakui secara internasional.
                 </p>
+                <p class="w-full text-gray-500 text-sm text-justify leading-relaxed sm:w-full sm:text-xs sm:leading-relaxed">
+                    Dengan semangat untuk mendukung generasi sehat Indonesia, AnakSehat terus berinovasi dalam menghadirkan layanan yang relevan dan bermanfaat. Kami percaya bahwa investasi terbaik bagi masa depan anak adalah melalui pemberian gizi yang optimal sejak dini. Mari bersama wujudkan anak-anak Indonesia yang sehat, cerdas, dan berprestasi!
+                </p>
             </div>
         </div>
     </section>
