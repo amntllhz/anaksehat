@@ -22,6 +22,9 @@ Route::get('/visimisi', function () {
     return view('visimisi');
 })->name('visimisi');
 
+Route::get('/kontributor', function () {
+    return view('kontributor');
+})->name('kontributor');
 
 Route::get('/berita', [ArticleController::class, 'index'])->name('berita');
 Route::get('/berita/{id}', [ArticleController::class, 'show'])->name('detailberita.show');

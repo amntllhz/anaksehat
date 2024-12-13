@@ -74,7 +74,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="text-sm text-white hover:text-foot sm:text-sm">
+            <a href="{{ url('/kontributor') }}" class="text-sm text-white hover:text-foot sm:text-sm">
               Kontributor
             </a>
           </li>

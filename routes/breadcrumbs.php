@@ -19,10 +19,16 @@ Breadcrumbs::for('profil', function (BreadcrumbTrail $trail) {
     $trail->push('Profil', route('profil'));
 });
 
-// Beranda > Profil
+// Beranda > Visi & Misi
 Breadcrumbs::for('visimisi', function (BreadcrumbTrail $trail) {
     $trail->parent('beranda');
     $trail->push('Visi & Misi', route('visimisi'));
+});
+
+// Beranda > Kontributor
+Breadcrumbs::for('kontributor', function (BreadcrumbTrail $trail) {
+    $trail->parent('beranda');
+    $trail->push('Kontributor', route('kontributor'));
 });
 
 // Beranda > Berita

@@ -52,9 +52,7 @@
                         <li class="text-gray-500 text-sm text-justify leading-relaxed">Berinovasi dalam Pelayanan: Mengintegrasikan teknologi terkini untuk terus meningkatkan pengalaman pengguna dalam mengakses layanan edukasi dan konsultasi gizi balita.</li>
                     </ol>
                 </div>
-            </div>    
-            
-                        
+            </div>                                                
         </div>
     </section>
 
