@@ -69,7 +69,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="text-sm text-white hover:text-foot sm:text-sm">
+            <a href="{{ url('/visimisi') }}" class="text-sm text-white hover:text-foot sm:text-sm">
               Visi & Misi
             </a>
           </li>

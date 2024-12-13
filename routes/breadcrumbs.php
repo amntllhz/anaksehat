@@ -19,6 +19,12 @@ Breadcrumbs::for('profil', function (BreadcrumbTrail $trail) {
     $trail->push('Profil', route('profil'));
 });
 
+// Beranda > Profil
+Breadcrumbs::for('visimisi', function (BreadcrumbTrail $trail) {
+    $trail->parent('beranda');
+    $trail->push('Visi & Misi', route('visimisi'));
+});
+
 // Beranda > Berita
 Breadcrumbs::for('berita', function (BreadcrumbTrail $trail) {
     $trail->parent('beranda');

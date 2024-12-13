@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>anaksehat - Profil</title>
+    <title>anaksehat - Visi Misi</title>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     @vite(['resources/css/app.css','resources/js/app.js','resources/js/navbar.js','resources/js/success.js'])
 </head>    
@@ -12,7 +12,7 @@
 
     <section class="max-w-6xl p-10 mx-auto sm:w-full sm:p-6">
         <div class="flex font-semibold text-prim">                    
-            {{ Breadcrumbs::render('profil') }}    
+            {{ Breadcrumbs::render('visimisi') }}    
         </div>
     </section>
 
@@ -34,20 +34,27 @@
                 <p class="font-semibold text-xs py-2 px-4 text-prim bg-prim bg-opacity-10 rounded-md">Panduan Gizi</p>
             </div>
 
-            <div class="space-y-3">
-                <p class="w-full text-gray-500 text-sm text-justify leading-relaxed sm:w-full sm:text-xs sm:leading-relaxed">
-                    <span class="font-bold text-prim">Anaksehat</span> adalah platform digital yang dirancang untuk mendukung orang tua dan pengasuh dalam memastikan tumbuh kembang optimal balita melalui edukasi gizi yang komprehensif. Kami hadir untuk memberikan informasi yang akurat, berbasis data ilmiah, dan mudah diakses mengenai gizi anak, sehingga setiap keluarga dapat membuat keputusan terbaik untuk kesehatan si kecil.
-                </p>
-                <p class="w-full text-gray-500 text-sm text-justify leading-relaxed sm:w-full sm:text-xs sm:leading-relaxed">
-                    Melalui Anaksehat, Anda dapat menemukan berbagai artikel edukasi yang disusun oleh tim ahli gizi dan kesehatan mengenai kebutuhan <span class="font-bold text-prim">Nutrisi Balita</span>, <span class="font-bold text-prim">Menu Sehat</span>, hingga <span class="font-bold text-prim">Panduan</span> menghadapi masalah makan pada anak. Semua informasi disajikan dengan bahasa yang sederhana namun tetap berbobot, sehingga dapat dengan mudah dipahami oleh semua orang tua.
-                </p>
-                <p class="w-full text-gray-500 text-sm text-justify leading-relaxed sm:w-full sm:text-xs sm:leading-relaxed">
-                    Kami memahami bahwa <span class="font-bold text-prim">memantau gizi balita secara berkala</span> adalah langkah penting dalam mendukung tumbuh kembangnya. Oleh karena itu, Anaksehat menyediakan fitur <span class="font-bold text-prim">Cek Gizi Otomatis</span> yang memungkinkan Anda mengetahui kondisi gizi si kecil secara akurat. Dengan memasukkan data seperti berat badan, panjang badan, dan usia anak, sistem kami akan menganalisis status gizi berdasarkan standar antropometri yang diakui secara internasional.
-                </p>
-                <p class="w-full text-gray-500 text-sm text-justify leading-relaxed sm:w-full sm:text-xs sm:leading-relaxed">
-                    Dengan semangat untuk mendukung generasi sehat Indonesia, AnakSehat terus berinovasi dalam menghadirkan layanan yang relevan dan bermanfaat. Kami percaya bahwa investasi terbaik bagi masa depan anak adalah melalui pemberian gizi yang optimal sejak dini. Mari bersama wujudkan anak-anak Indonesia yang sehat, cerdas, dan berprestasi!
+            <div class="space-y-2 mb-4">
+                <h1 class="text-3xl text-prim font-bold sm:text-xl">Visi</h1>
+                <p class="text-gray-500 text-sm text-justify leading-relaxed">
+                    Menjadi platform digital terdepan yang mendukung orang tua dan pengasuh dalam meningkatkan kualitas hidup balita melalui edukasi gizi yang akurat, inovasi teknologi yang ramah pengguna, dan layanan konsultasi berbasis data. Dengan berkomitmen pada pertumbuhan generasi yang sehat, cerdas, dan berdaya saing, AnakSehat hadir sebagai mitra terpercaya dalam memberikan informasi, solusi, dan panduan praktis untuk memastikan tumbuh kembang optimal anak-anak Indonesia.
                 </p>
             </div>
+
+            <div class="">
+                <h1 class="text-3xl text-prim font-bold sm:text-xl">Misi</h1>
+                <div class="p-4">
+                    <ol class="list-decimal list-outside space-y-1">
+                        <li class="text-gray-500 text-sm text-justify leading-relaxed">Menyediakan Informasi Edukatif: Memberikan akses mudah terhadap artikel dan panduan gizi balita yang akurat, terpercaya, dan berbasis data ilmiah.</li>
+                        <li class="text-gray-500 text-sm text-justify leading-relaxed">Meningkatkan Kesadaran Orang Tua: Mengedukasi orang tua dan pengasuh tentang pentingnya gizi dalam tumbuh kembang anak melalui konten yang relevan dan interaktif.</li>
+                        <li class="text-gray-500 text-sm text-justify leading-relaxed">Mendukung Pemantauan Gizi Anak: Mengembangkan fitur otomatis untuk mengevaluasi status gizi balita secara cepat, akurat, dan sesuai standar internasional.</li>
+                        <li class="text-gray-500 text-sm text-justify leading-relaxed">Memfasilitasi Akses Informasi Praktis: Menyediakan buku panduan gizi balita online yang dapat diakses kapan saja untuk membantu orang tua merencanakan pola makan sehat.</li>
+                        <li class="text-gray-500 text-sm text-justify leading-relaxed">Berinovasi dalam Pelayanan: Mengintegrasikan teknologi terkini untuk terus meningkatkan pengalaman pengguna dalam mengakses layanan edukasi dan konsultasi gizi balita.</li>
+                    </ol>
+                </div>
+            </div>    
+            
+                        
         </div>
     </section>
 

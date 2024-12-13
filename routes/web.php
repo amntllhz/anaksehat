@@ -18,6 +18,11 @@ Route::get('/profil', function () {
     return view('profil');
 })->name('profil');
 
+Route::get('/visimisi', function () {
+    return view('visimisi');
+})->name('visimisi');
+
+
 Route::get('/berita', [ArticleController::class, 'index'])->name('berita');
 Route::get('/berita/{id}', [ArticleController::class, 'show'])->name('detailberita.show');
 Route::post('/feedback', [FeedbackController::class, 'store'])->name('feedback.store');
