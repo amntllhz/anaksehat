@@ -20,7 +20,7 @@
         <div class="flex flex-col p-10 w-full mb-10 sm:px-4 bg-white rounded-3xl ring-2 ring-inset ring-prim/20">
             <div class="space-y-2">
                 <h1 class="text-2xl text-prim font-bold bg-prim bg-opacity-10 rounded-md text-center py-2 px-4">Hasil Cek Gizi Balita</h1>
-                <div class="flex justify-between p-2 w-1/3 sm:w-full">
+                <div class="flex justify-between p-2 w-1/2 sm:w-full">
                     <div class="flex flex-col space-y-1 text-left w-full">
                         <p class="text-gray-700 font-semibold text-sm">Nama</p>
                         <p class="text-gray-700 font-semibold text-sm">Jenis Kelamin</p>
