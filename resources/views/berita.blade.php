@@ -41,7 +41,7 @@
                                 <p class="text-gray-400 text-xs py-1.5 px-1">{{ $article->created_at_human }}</p>
                             </div>
                             <h1 class="text-xl text-prim font-bold line-clamp-2 sm:text-xl">{{ $article->judul }}</h1>                    
-                            <p class="text-gray-500 text-xs font-light text-justify line-clamp-3 sm:text-xs">{{ $article->deskripsi }}</p>
+                            <p class="text-gray-500 text-xs font-medium text-justify line-clamp-3 sm:text-xs">{{ $article->deskripsi }}</p>
                         </div>                
                     </div>            
                 </a>  
