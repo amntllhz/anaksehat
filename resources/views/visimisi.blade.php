@@ -19,7 +19,7 @@
 
     <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-4 mb-24">
         <div class="flex flex-col w-full mb-10 sm:px-2">
-            <div class="flex mx-auto mb-4 w-fit px-10 py-4 bg-prim bg-opacity-10 rounded-2xl sm:px-8 sm:py-4 sm:rounded-xl">
+            <div class="flex mx-auto mb-4 w-fit px-10 py-4 bg-prim/10 rounded-2xl sm:px-8 sm:py-4 sm:rounded-xl">
                 <svg width="171" height="33" viewBox="0 0 171 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.7764 0.888233L0.880633 12.781C0.841858 12.8199 0.791408 12.8449 0.737016 12.8524C0.682624 12.8598 0.627293 12.8492 0.57951 12.8222C0.531727 12.7951 0.494129 12.7532 0.47248 12.7028C0.450831 12.6523 0.446327 12.5962 0.459659 12.5429C1.06097 10.0977 2.21672 7.82351 3.83756 5.89616C4.14656 5.52914 4.47381 5.17239 4.81931 4.82592C5.08295 4.56305 5.35297 4.31046 5.62937 4.06814C7.61033 2.33097 9.98038 1.09593 12.5393 0.467364C12.5925 0.454385 12.6484 0.459143 12.6987 0.480915C12.7489 0.502687 12.7906 0.540277 12.8174 0.587954C12.8443 0.635632 12.8548 0.690781 12.8474 0.744994C12.84 0.799207 12.8151 0.849509 12.7764 0.888233Z" fill="#92E48B"/>
                     <path d="M6.13167 29.1088C5.52404 28.6914 4.94481 28.2341 4.3978 27.7399C4.34217 27.6889 4.28901 27.6357 4.23834 27.5805C1.69288 24.7689 0.196625 21.1648 0.00253907 17.3776C-0.0123291 17.0666 0.0382249 16.7561 0.150933 16.4659C0.263642 16.1757 0.435997 15.9124 0.656858 15.693L5.56346 10.7877C5.7715 10.5797 6.01849 10.4147 6.29031 10.3021C6.56214 10.1895 6.85348 10.1316 7.1477 10.1316C7.44192 10.1316 7.73326 10.1895 8.00508 10.3021C8.27691 10.4147 8.5239 10.5797 8.73194 10.7877L12.8093 14.8672C13.1826 15.2394 13.4124 15.7313 13.4582 16.2563C13.504 16.7814 13.3629 17.3057 13.0597 17.7368C11.0536 20.5871 9.86527 23.9315 9.62332 27.4083C9.5016 29.1295 7.55831 30.0898 6.13167 29.1088Z" fill="#63D69B"/>
@@ -30,9 +30,9 @@
             </div>
 
             <div class="flex mx-auto items-center space-x-2 mb-4">
-                <p class="font-semibold text-xs py-2 px-4 text-prim bg-prim bg-opacity-10 rounded-md">Artikel Gizi</p>
-                <p class="font-semibold text-xs py-2 px-4 text-prim bg-prim bg-opacity-10 rounded-md">Cek Status Gizi</p>
-                <p class="font-semibold text-xs py-2 px-4 text-prim bg-prim bg-opacity-10 rounded-md">Panduan Gizi</p>
+                <p class="font-semibold text-xs py-2 px-4 text-prim bg-prim/10 rounded-md">Artikel Gizi</p>
+                <p class="font-semibold text-xs py-2 px-4 text-prim bg-prim/10 rounded-md">Cek Status Gizi</p>
+                <p class="font-semibold text-xs py-2 px-4 text-prim bg-prim/10 rounded-md">Panduan Gizi</p>
             </div>
 
             <div class="space-y-2 mb-4">

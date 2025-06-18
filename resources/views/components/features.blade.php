@@ -16,7 +16,7 @@
       <div class="grid grid-cols-3 gap-8 mt-10 sm:grid-cols-1">
 
         {{-- card1 --}}
-        <div class="w-full bg-prim bg-opacity-10 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
+        <div class="w-full bg-prim/10 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
 
           <div class="bg-prim p-2 rounded-lg flex w-14 h-14 justify-center items-center">
             <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +29,7 @@
             <p class="text-prim text-sm text-left lg:line-clamp-3 md:line-clamp-3"> Dapatkan Informasi terbaru mengenai gizi balita dan jangan lewatkan himbauan terbaru !</p>
           </div>
 
-          <a href="{{ url('/berita') }}" class="w-full bg-prim bg-opacity-10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
+          <a href="{{ url('/berita') }}" class="w-full bg-prim/10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
             <p class="text-prim text-sm">Lebih lanjut</p>
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1 11L6 6L1 1" stroke="#35C6A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -38,7 +38,7 @@
         </div>
         
         {{-- card2 --}}
-        <div class="w-full bg-prim bg-opacity-10 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
+        <div class="w-full bg-prim/10 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
 
           <div class="bg-prim p-2 rounded-lg flex w-14 h-14 justify-center items-center">
             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@
             <p class="text-prim text-sm text-left lg:line-clamp-3 md:line-clamp-3">Cek status gizi balita melalui sistem otomatis dengan metode standar dan dengan hasil akurat !</p>
           </div>
 
-          <a href="{{ url('/cekgizi') }}" class="w-full bg-prim bg-opacity-10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
+          <a href="{{ url('/cekgizi') }}" class="w-full bg-prim/10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
             <p class="text-prim text-sm">Lebih lanjut</p>
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1 11L6 6L1 1" stroke="#35C6A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -61,7 +61,7 @@
         </div>
 
         {{-- card3 --}}
-        <div class="w-full bg-prim bg-opacity-10 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
+        <div class="w-full bg-prim/10 p-8 rounded-3xl ring-2 ring-inset ring-prim/20 space-y-4">
 
           <div class="bg-prim p-2 rounded-lg flex w-14 h-14 justify-center items-center">
             <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +74,7 @@
             <p class="text-prim text-sm text-left lg:line-clamp-3 md:line-clamp-3">Panduan gizi balita yang tepat sesuai usia yang diperlukan untuk memastikan kesehatan balita</p>
           </div>
 
-          <button class="w-full bg-prim bg-opacity-10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
+          <button class="w-full bg-prim/10 rounded-lg py-2 px-4 text-sm font-semibold text-prim ring-2 ring-inset ring-prim/20 flex items-center space-x-4 justify-between hover:bg-opacity-30">
             <p class="text-prim text-sm">Lebih lanjut</p>
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1 11L6 6L1 1" stroke="#35C6A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

@@ -20,7 +20,7 @@
     <section class="max-w-6xl mx-auto px-10 sm:w-full sm:px-6 mb-24">
         <div class="flex flex-col p-10 w-full mb-10 sm:px-4 bg-white rounded-3xl ring-2 ring-inset ring-prim/20">
             <div class="space-y-2">
-                <h1 class="text-2xl text-prim font-bold bg-prim bg-opacity-10 rounded-md text-center py-2 px-4">Hasil Cek Gizi Balita</h1>
+                <h1 class="text-2xl text-prim font-bold bg-prim/10 rounded-md text-center py-2 px-4">Hasil Cek Gizi Balita</h1>
                 <div class="flex justify-between p-2 w-1/2 sm:w-full">
                     <div class="flex flex-col space-y-1 text-left w-full">
                         <p class="text-gray-700 font-semibold text-sm">Nama</p>
@@ -42,21 +42,21 @@
             <table class="w-full table-fixed mt-4 border-collapse text-sm text-gray-500 sm:overflow-x-auto">
                 <thead>
                     <tr class="bg-gray-100">
-                        <th class="border text-gray-700 p-2 text-left">Metode Perhitungan</th>                        
-                        <th class="border text-gray-700 p-2 text-center">Z-Score</th>
-                        <th class="border text-gray-700 p-2 text-center">Status Gizi</th>
+                        <th class="border border-gray-200 text-gray-700 p-2 text-left">Metode Perhitungan</th>                        
+                        <th class="border border-gray-200 text-gray-700 p-2 text-center">Z-Score</th>
+                        <th class="border border-gray-200 text-gray-700 p-2 text-center">Status Gizi</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="border p-2 text-justify">Metode BB/U adalah metode untuk menilai status gizi anak berdasarkan berat badan relatif terhadap umurnya</td>                        
-                        <td class="border p-2 text-center">{{ number_format($zscoreBbu, 2) }}</td>
-                        <td class="border p-2 text-center">{{ $statusBbu }}</td>
+                        <td class="border border-gray-200 p-2 text-justify">Metode BB/U adalah metode untuk menilai status gizi anak berdasarkan berat badan relatif terhadap umurnya</td>                        
+                        <td class="border border-gray-200 p-2 text-center">{{ number_format($zscoreBbu, 2) }}</td>
+                        <td class="border border-gray-200 p-2 text-center">{{ $statusBbu }}</td>
                     </tr>
                     <tr>
-                        <td class="border p-2 text-justify">Metode PB/U adalah metode untuk menilai status gizi anak berdasarkan Panjang/Tinggi badan relatif terhadap umurnya</td>                        
-                        <td class="border p-2 text-center">{{ number_format($zscorePbu, 2) }}</td>
-                        <td class="border p-2 text-center">{{ $statusPbu }}</td>
+                        <td class="border border-gray-200 p-2 text-justify">Metode PB/U adalah metode untuk menilai status gizi anak berdasarkan Panjang/Tinggi badan relatif terhadap umurnya</td>                        
+                        <td class="border border-gray-200 p-2 text-center">{{ number_format($zscorePbu, 2) }}</td>
+                        <td class="border border-gray-200 p-2 text-center">{{ $statusPbu }}</td>
                     </tr>
                 </tbody>
             </table>
@@ -71,7 +71,7 @@
 
         <!-- Tombol Kembali -->
         <div class="mt-6">
-            <a href="{{ url('/cekgizi') }}" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gratwo transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">
+            <a href="{{ url('/cekgizi') }}" class="w-fit rounded-lg bg-prim px-6 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gratwo transition-all duration-300  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-prim">
                 Kembali
             </a>
         </div>

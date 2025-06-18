@@ -20,7 +20,7 @@
 
     <div class="max-w-6xl mx-auto px-10 py-4 w-full mb-2 sm:px-6 sm:mb-0">
         <form method="GET" action="{{ url('/berita') }}" class="flex items-center space-x-2">            
-            <select name="order" id="order" class="w-fit bg-gray-50 border border-gray-300 text-prim text-xs rounded-lg focus:ring-prim focus:border-prim block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onchange="this.form.submit()">
+            <select name="order" id="order" class="w-24 bg-gray-50 border flex items-center gap-2 border-gray-300 text-prim text-xs rounded-lg focus:ring-prim focus:border-prim p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onchange="this.form.submit()">
                 <option class="text-sm sm:text-xs" value="desc" {{ request('order') === 'desc' ? 'selected' : '' }}>Terbaru</option>
                 <option class="text-sm sm:text-xs" value="asc" {{ request('order') === 'asc' ? 'selected' : '' }}>Terlama</option>
             </select>            
@@ -38,7 +38,7 @@
                         @endif                        
                         <div class="space-y-2">                            
                             <div class="flex flex-row w-full justify-between items-center">
-                                <p class="text-prim font-semibold text-xs py-1 px-3 bg-prim bg-opacity-10 rounded-md">Author</p>
+                                <p class="text-prim font-semibold text-xs py-1 px-3 bg-prim/10 rounded-md">Author</p>
                                 <p class="text-gray-400 text-xs py-1.5 px-1">{{ $article->created_at_human }}</p>
                             </div>
                             <h1 class="text-xl text-prim font-bold line-clamp-2 sm:text-xl">{{ $article->judul }}</h1>                    
