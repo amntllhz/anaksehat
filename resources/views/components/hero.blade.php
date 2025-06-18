@@ -1,8 +1,8 @@
-<section class=" bg-gradient-to-r from-graone to-gratwo items-center relative overflow-hidden">
+<section class="h-screen bg-gradient-to-r from-graone to-gratwo items-center flex flex-col justify-center relative overflow-hidden">
     
     <img id="circle-fx" class="w-80 absolute left-0 z-0" src="{{ asset('img/circle-fx.png') }}" alt="">
 
-    <div class="flex flex-row max-w-6xl p-10 mx-auto items-center sm:flex-col sm:p-8">      
+    <div class="flex flex-row max-w-5xl justify-between w-full mx-auto items-center sm:flex-col sm:p-8">      
 
       <div class="flex flex-col gap-y-4 w-1/2 z-10 sm:w-full">
 
@@ -25,7 +25,7 @@
 
       {{-- gambar --}}
       <div class="flex flex-col w-1/2 z-10 sm:w-full">
-        <img class="w-96 mx-auto pointer-events-none" src="{{ asset('img/hero-img.png') }}" alt="">
+        <img class="w-80 mx-auto pointer-events-none" src="{{ asset('img/hero-img.png') }}" alt="">
       </div>
       
     </div>

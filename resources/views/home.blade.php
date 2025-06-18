@@ -7,7 +7,7 @@
     <title>anaksehat - Beranda</title>
     <link rel="icon" href="{{ asset('img/iconanaksehat.svg') }}">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    @vite(['resources/css/app.css','resources/js/app.js','resources/js/navbar.js','resources/js/success.js'])
+    @vite(['resources/css/app.css','resources/js/app.js','resources/js/success.js'])
 </head>    
 <body class="font-in font-feature-settings-cv11">
 
