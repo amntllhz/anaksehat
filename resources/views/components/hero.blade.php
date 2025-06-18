@@ -1,10 +1,10 @@
-<section id="hero" class="h-screen bg-gradient-to-r from-graone to-gratwo items-center flex flex-col justify-center pt-0 sm:pt-24 relative overflow-hidden">
+<section id="hero" class="h-screen bg-linear-to-b/hsl from-graone from-20% to-gratwo items-center flex flex-col justify-center pt-0 sm:pt-24 relative overflow-hidden">
     
     <img id="circle-fx" class="w-80 absolute left-0 z-0" src="{{ asset('img/circle-fx.png') }}" alt="">
 
     <div class="flex flex-row max-w-5xl justify-between w-full mx-auto items-center sm:flex-col sm:p-8">      
 
-      <div class="flex flex-col gap-y-4 w-1/2 z-10 sm:w-full">
+      <div class="flex flex-col gap-y-4 w-1/2 z-20 sm:w-full">
 
         <div class="small-badge w-fit gap-x-2 flex flex-row ring-2 ring-inset ring-prim/20 bg-prim/20 rounded-full py-1 px-4 sm:py-1 items-center">
           <svg class="sm:w-4" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
