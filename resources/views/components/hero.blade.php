@@ -1,4 +1,4 @@
-<section class="h-screen bg-gradient-to-r from-graone to-gratwo items-center flex flex-col justify-center relative overflow-hidden">
+<section class="h-screen bg-gradient-to-r from-graone to-gratwo items-center flex flex-col justify-center pt-0 sm:pt-24 relative overflow-hidden">
     
     <img id="circle-fx" class="w-80 absolute left-0 z-0" src="{{ asset('img/circle-fx.png') }}" alt="">
 
