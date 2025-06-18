@@ -91,7 +91,7 @@
 >
     <div class="flex items-center justify-between">
         {{-- Logo --}}
-        <a href={{ url('/home') }}>
+        <a href="#hero">
             <img class="h-6 sm:h-5" src="{{ asset('img/logo.svg') }}" alt=""> 
         </a>
         
