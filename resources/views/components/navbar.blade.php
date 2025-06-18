@@ -113,17 +113,17 @@
 
         {{-- Menu utama (inline horizontal di lg) --}}
         <div class="sm:hidden flex items-center gap-8">            
-            <a href={{ url('/berita') }} class="text-prim font-display text-sm font-bold hover:text-apple-900 transition">Berita</a>
-            <a href={{ url('/cekgizi') }} class="text-prim font-display text-sm font-bold hover:text-apple-900 transition">Cek Status Gizi</a>
-            <a href="#tentang" class="text-prim font-display text-sm font-bold hover:text-apple-900 transition">Tentang</a>  
+            <a href={{ url('/berita') }} class="text-prim hover:text-acctwo font-display text-sm font-bold transition duration-300 ease-in-out">Berita</a>
+            <a href={{ url('/cekgizi') }} class="text-prim hover:text-acctwo font-display text-sm font-bold transition duration-300 ease-in-out">Cek Status Gizi</a>
+            <a href="#tentang" class="text-prim hover:text-acctwo font-display text-sm font-bold transition duration-300 ease-in-out">Tentang</a>  
         </div>
     </div>
 
     {{-- Menu responsif (stacked vertical in xs) --}}
     <div x-show="open" x-collapse x-cloak class="mt-8 sm:flex flex-col gap-3 hidden">        
-        <a href={{ url('/berita') }} class="text-prim font-display text-sm font-bold hover:text-apple-900 transition">Berita</a>
-        <a href={{ url('/cekgizi') }} class="text-prim font-display text-sm font-bold hover:text-apple-900 transition">Cek Gizi</a>
-        <a href="#tentang" class="text-prim font-display text-sm font-bold hover:text-apple-900 transition">Tentang</a>
+        <a href={{ url('/berita') }} class="text-prim hover:text-acctwo font-display text-sm font-bold transition duration-300 ease-in-out">Berita</a>
+        <a href={{ url('/cekgizi') }} class="text-prim hover:text-acctwo font-display text-sm font-bold transition duration-300 ease-in-out">Cek Gizi</a>
+        <a href="#tentang" class="text-prim hover:text-acctwo font-display text-sm font-bold transition duration-300 ease-in-out">Tentang</a>
     </div>
 </div>
 
