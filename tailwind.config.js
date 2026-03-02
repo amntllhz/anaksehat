@@ -14,6 +14,7 @@ export default {
         extend: {
             fontFamily: {
                 in : "'Inter var', sans-serif",
+                
             },
             colors : {        
                 prim : '#35C6A8',
